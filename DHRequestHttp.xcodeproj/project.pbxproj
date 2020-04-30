@@ -212,9 +212,9 @@
 		6372FE9E245A5D5C0036A75F /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				6372FEA2245A5D5C0036A75F /* DDRequestID.h */,
 				6372FE9F245A5D5C0036A75F /* DDRequestID.m */,
 				6372FEA1245A5D5C0036A75F /* DDHttpHelper.m */,
-				6372FEA2245A5D5C0036A75F /* DDRequestID.h */,
 				6372FEA4245A5D5C0036A75F /* DDHttpHelper.h */,
 			);
 			path = Http;

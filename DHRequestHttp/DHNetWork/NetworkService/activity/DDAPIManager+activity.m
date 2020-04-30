@@ -16,4 +16,18 @@
     return [self requestWithAPIContext:context];
 }
 
+
++ (DDRequestID *)apiManagerPost
+{
+    NSString *url = @"";
+    DDAPIContext *context = [DDAPIContext contextPostWithURLString:url parameterDict:nil];
+    return [self requestWithAPIContext:context];
+}
+
++ (DDRequestID *)apiManagerBody{
+    
+    NSString *url = @"";
+    DDAPIContext *context = [DDAPIContext contextWithMethodType:HttpRequestMothodTypeBody URLString:url parameterDict:nil isEncryption:YES isBasic:YES isToken:YES];
+    return [self requestWithAPIContext:context];
+}
 @end

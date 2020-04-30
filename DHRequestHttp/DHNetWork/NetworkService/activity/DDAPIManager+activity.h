@@ -22,6 +22,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (DDRequestID *)apiManagerActivityGetSubjectListWithTimeStamp:(NSString *)createtimestamp;
 
+
+
+/// 创建一个post请求
++ (DDRequestID *)apiManagerPost;
+
+
+/// 创建一个body请求
++ (DDRequestID *)apiManagerBody;
+
 @end
 
 NS_ASSUME_NONNULL_END
